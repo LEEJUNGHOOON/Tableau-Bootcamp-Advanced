@@ -22,11 +22,14 @@ Tableau Bootcamp의 8일차에서는 **지리 정보 시각화(World Map)** 를 
 | 시도        | 주/시/도              |      |
 | 시군구      | 시군구                | 일부 버전에서는 '카운티' |
 
+<img width="712" height="828" alt="image (18)" src="https://github.com/user-attachments/assets/358c63a5-305c-4f88-88ac-599fb66b7169" />
+
 ### 1-2. 읍면동 시각화 (보너스)
 - Tableau 기본 내장 지리 정보에는 읍면동 단위가 없음.
 - 해결: **읍면동 공간 파일(SHP)** 을 다운로드 후 Tableau에 연결.  
 - 기존 데이터와 조인하여 상세 주소 단위까지 시각화 가능.
 - 예시: Tableau Prep으로 시군구 + 읍면동 데이터를 병합한 hyper 파일 활용.
+<img width="1257" height="696" alt="image (19)" src="https://github.com/user-attachments/assets/8d406c3d-cdf6-420c-9404-c378cb9d69cf" />
 
 ### 1-3. 지리 정보 계층 만들기
 - 국가, 시도, 시군구 필드를 선택 → **계층 만들기**  
@@ -36,6 +39,7 @@ Tableau Bootcamp의 8일차에서는 **지리 정보 시각화(World Map)** 를 
 ### 1-4. 알 수 없거나 모호한 위치 편집하기
 - 동일한 이름(예: 중구, 동구)이 여러 시도에 존재할 경우 Tableau는 ‘알 수 없는 항목’으로 표시.
 - 해결 방법: **위치 편집** 기능을 통해 해당 구가 어느 시도에 속하는지 지정.
+<img width="634" height="564" alt="image (20)" src="https://github.com/user-attachments/assets/d8ad434b-b83c-4f44-b19f-c15780eef242" />
 
 ---
 
